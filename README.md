@@ -11,7 +11,7 @@ This repository hosts a FastAPI-based API for Retrieval-Augmented Generation (RA
 ## Default Configuration
 - Embedding Model: intfloat/multilingual-e5-small (Embedding dimensions: 384)
 - Indexing algorithm: HNSW (maxConnections: 32, efConstruction: 128, ef: 64)
-- Similarity metric: Cosine
+- Similarity metric: Cosine distance
 
 Note: The API design is highly flexible, allowing for straightforward substitutions of the embedding model and indexing algorithm. Users can easily replace 'intfloat/multilingual-e5-small' with their preferred model and switch out the HNSW indexing algorithm in Milvus, adapting the system to diverse requirements and use cases.
 
