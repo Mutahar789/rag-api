@@ -15,6 +15,19 @@ This repository hosts a FastAPI-based API for Retrieval-Augmented Generation (RA
 
 Note: The API design is highly flexible, allowing for straightforward substitutions of the embedding model and indexing algorithm. Users can easily replace 'intfloat/multilingual-e5-small' with their preferred model and switch out the HNSW indexing algorithm in Milvus, adapting the system to diverse requirements and use cases.
 
+## Supported file types
+- pdf
+- txt
+- docx / doc
+- html
+- md
+- py
+- js
+- json
+- csv
+- xml
+- xlsx / xls
+
 ## Install
 ```
 bash setup.sh
